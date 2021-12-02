@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="sport,squadra">
+        <meta name="description" content="Portale Granda College">
+        <title>GrandaCollege</title>
+        <link rel="stylesheet" href="./css/stile.css" type="text/css">     
+        <script type="text/javascript">
+            function mostraOra(){
+                var d = new Date();
+                var ora = d.toLocaleTimeString();
+                alert(ora);
+            }
+        </script> 
+    </head>
+    
+
+    <body>
+        <body background="./img/sfondo.jpg"></body>
+        <img src="./img/titolo.png">
+            <h1 class="inbianco">Il Grande Basket</h1>
+            <img src="./img/logo-sito-5.png" height="20%" width="20%">
+        
+        <header>
+            <nav>
+                <title>GC Cuneo</title>
+                <ul>
+                    <li><a href="homepage.html" title="HomePage"><b>HomePage</b></a></li>
+                    <li><a href="giovanili.html" title="Giovanili"><b>Giovanili</b></a></li>
+                    <li><a href="senior.html" title="Senior"><b>Senior</b></a></li>
+                    <li><a href="femminile.html" title="Settore Femminile"><b>Settore Femminile</b></a></li>
+                    <li><a href="contatti.html" title="Contatti"><b>Contatti</b></a></li>
+                    <li class="dropdown">
+                        <ul class="dropdown-content"></ul>
+                    </li> 
+                </ul>
+            </nav>
+        </header>
+        <body>
+            <body background="./img/sfondo.jpg"></body>
+            <div class="contatti">
+                <div style="text-align:center">
+                    <h1>CONTATTACI</h1>
+                    <p><i>Srivi qui se avete riscontrato dei problemi o se volete un appuntamento per chiarimenti:</i></p>
+                </div>
+                <div class="colonna">
+                    <div class="riga">
+                        
+                    </div>
+                </div>
+              <div class="colonna">
+                <form>
+                  <label for="fname">NOME</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+                  <label for="lname">COGNOME</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+                  <label for="country">PAESE</label>
+                  <select id="country" name="country">
+                    <option value="australia">Italia</option>
+                    <option value="canada">Francia</option>
+                    <option value="usa">Inghilterra</option>
+                    <br>
+                  </select>
+                  <label for="subject"></label>
+                  <textarea id="subject" name="subject" placeholder="Scrivi qui..." style="height:170px"></textarea>
+                  <input type="button" value="Che ora è?" name="b1" onclick="mostraOra()">
+                  
+                </form>
+              </div>
+            </div>
+          </div>
+        </body>
+        <footer class="google-maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.2714408786446!2d7.565269115483962!3d44.386549379102995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cd6926f8adf721%3A0x9d96c8e9fa837282!2sPalestra%20Sportarea!5e0!3m2!1sit!2sit!4v1621881805624!5m2!1sit!2sit" width="1600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <h2><b>Puoi trovarci su <u>facebook in live</u> con tutte le partite: </b></h2>
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fgrandacollegecuneo%2Fvideos%2F1570973663106438%2F&show_text=false&width=560" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+        </footer>
+    </body>
+</html>

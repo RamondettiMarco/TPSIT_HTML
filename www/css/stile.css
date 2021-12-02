@@ -1,0 +1,13 @@
+label span{
+    color: #0000FF;
+    font-size: 85%;
+}
+#contenitore{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+}
+#commenti{
+    font-family: verdana;
+    color: #000000;;
+}
